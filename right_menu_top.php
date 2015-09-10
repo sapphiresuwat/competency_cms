@@ -20,8 +20,8 @@
 
 </style>
 <?php 
-//$iphost= $_SERVER['HTTP_HOST'];
-$iphost= 'master.cmss-otcsc.com';
+include ("config.php");
+
 ?>
 <link href="http://<?php echo $iphost ?>/competency_master/common/style_THSarabun.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
@@ -42,28 +42,28 @@ a:active {
 </head>
 <table id="Table_01" width="170" height="594" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-		<td height="150" align="right" valign="top" class="text-whitedrop"><a href="http://wcs.cmss-otcsc.com/" target="_blank"><img src="images/bg_cmd.jpg" alt="" width="170" height="152" border="0"></a></td>
+		<td height="150" align="right" valign="top" class="text-whitedrop"><a href="<?php echo $url_cmd; ?>" target="_blank"><img src="images/bg_cmd.jpg" alt="" width="170" height="152" border="0"></a></td>
 	</tr>
     <tr>
 		<td>
 			<img src="images/line.png" width="170" height="1" alt=""></td>
 	</tr>
     <tr>
-		<td height="150" align="right" valign="top" class="text-whitedrop"><br /><a href="http://<?php echo $iphost ?>/competency_master/application/req_approve/log-in.php"><img src="images/btn_kp7.png" alt="" width="170" height="152" border="0"></a></td>
+		<td height="150" align="right" valign="top" class="text-whitedrop"><br /><a href="http://<?php echo $iphost2 ?>/competency_master/application/req_approve/log-in.php"><img src="images/btn_kp7.png" alt="" width="170" height="152" border="0"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<img src="images/line.png" width="170" height="1" alt=""></td>
 	</tr>
 	<tr>
-		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="index.php?page=3.2"><img src="images/btn_up.png" alt="" width="170" height="124" border="0"></a></td>
+		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="http://<?php echo $iphost4 ?>/competency_cms/index.php?page=3.2"><img src="images/btn_up.png" alt="" width="170" height="124" border="0"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<img src="images/line.png" width="170" height="1" alt=""></td>
 	</tr>
   	<tr>
-		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="index.php?page=3.1"><img src="images/exe_btn2.png" alt="" width="170" height="136" border="0"></a></td>
+		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="http://<?php echo $host_main ?>/competency_cms/index.php?page=3.1"><img src="images/exe_btn2.png" alt="" width="170" height="136" border="0"></a></td>
 	</tr>
 	<tr>
 		<td><img src="images/line.png" width="170" height="1" alt=""></td>
@@ -71,7 +71,7 @@ a:active {
 
         
         <tr>
-		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="http://<?php echo $iphost ?>/reportbuilder/report/report_unlink.php" target="_blank"><img src="images/icon_cmss-f_03.png" alt="" width="170" height="136" border="0"></a></td>
+		<td height="125" align="right" valign="top" class="text-whitedrop"><a href="http://<?php echo $host_main ?>/reportbuilder/report/report_unlink.php" target="_blank"><img src="images/icon_cmss-f_03.png" alt="" width="170" height="136" border="0"></a></td>
 	</tr>
         
         
